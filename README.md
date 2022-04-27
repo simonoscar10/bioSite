@@ -1,2 +1,6 @@
 # bioSite
-This is a HTML bio for CSD-340
+## CSD 340 Web Development with HTML and CSS
+## Contributors
+*Matt longley
+*Oscar Simon
+
