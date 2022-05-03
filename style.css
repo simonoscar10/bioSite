@@ -12,8 +12,10 @@ html{
 
 body{
     background-image: url('./images/Background.jpg');
-    background-position: 0 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Roboto', 'sans-serif';
+    
 }
 
 .container{
@@ -50,20 +52,33 @@ p{
     margin-bottom: 5rem;
 }
 
-.btn{
+.btn1Content{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn1{
     display: inline-block;
     padding: 2.7 7.5rem;
-    background: #f6f6f6;
-    font-size: 2rem;
+    background: #67a3bb;
+    font-size: 5rem;
     text-decoration: none;
-    color: #398f51;
+    color: #e0d6f3;
     border-radius: 10px;
     transition: background 0.5s;
 }
 
-.btn:hover{
-    background: #dadada;
+.btn1:hover{
+    background: #c5c5c5;
 }
+
+.btn2Content{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 #image-gallery {
     margin-top: 10%;
